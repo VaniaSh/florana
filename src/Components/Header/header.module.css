@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
 }
+
 h1, p, div {
     margin: 0;
     padding: 0;
@@ -43,37 +44,48 @@ h1, p, div {
     outline: none !important;
     border: 0;
 }
-.check:hover{
+
+.check:hover {
     background: #B7EAAF;
 }
-.title{
-    font-size:40px;
+
+.title {
+    font-size: 40px;
     font-family: "Roboto Thin", serif;
     color: white;
     box-shadow: rgba(0, 0, 0, 0.25);
     margin-top: 60px;
 
 }
-span{
+
+span {
     color: #B7EAAF;
 }
-.description{
+
+.description {
     color: white;
     font-size: 33px;
     font-family: Roboto, sans-serif;
     margin-top: 20px;
 }
-.videoButton{
+
+.videoButton {
     width: 200px;
     height: 40px;
     color: white;
     border: 1px solid white;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     border-radius: 30px;
     outline: none !important;
     margin: 60px auto 0 auto;
     font-size: 20px;
 }
-.icons{
-    margin: 0 auto;
+
+.icons {
+    margin: 50px auto 0 auto;
+    display: flex;
+}
+
+.icons div {
+    margin-right: 44px;
 }

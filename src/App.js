@@ -5,6 +5,8 @@ import Service from "./Components/Service/Service";
 import Shop from "./Components/Shop/Shop";
 import Loc from "./Components/Loc/Loc";
 import Header from "./Components/Header/Header";
+import Button from "./Components/Button/Button";
+import React from "react";
 
 function App() {
   return (
